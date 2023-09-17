@@ -2,7 +2,7 @@
 Remeberable Password Generator in C++
 
 <h1 align="center">Hi 👋, I'm Daniel Jones</h1>
-<h3 align="center">I'm a passionate python and cpp developer</h3>
+<h3 align="center">I'm a passionate python and C++ developer</h3>
 
 - 🔭 I’m currently working on [C++ AI Chatbot](https://github.com/DanielJones02/cpp-ai-chatbot) and [This Project](https://github.com/DanielJones02/Password-Generator)
 
