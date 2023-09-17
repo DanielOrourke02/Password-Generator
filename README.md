@@ -12,6 +12,17 @@ Remeberable Password Generator in C++
 
 - ⚡ Fun fact **I love python more than C++ (i hate pointers)**
 
+
+# Installation And Usage
+
+Comming Soon.
+
+
+## TODO:
+
+ - [ ] Actualy Make the program
+       
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
