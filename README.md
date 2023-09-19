@@ -6,7 +6,7 @@
 
 # Installation and Usage
 
-> IMPORTANT!
+> WARNING!
 > You need G++ Installed to compile this tool. Or dowmload the pre compiled exe from the latest release
 
 
