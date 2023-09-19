@@ -75,5 +75,9 @@ int main()
         std::cout << "\n";
     }
 
+    std::cout << "\nPasswords Generated.\n";
+
+    system("pause");
+
     return 0;
 }
