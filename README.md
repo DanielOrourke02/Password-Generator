@@ -10,9 +10,9 @@
 
  - `cd Password-Generator`
 
- - Now `execute compile.bat` or run `make` in terminal
+ - Now `execute compile.bat`
 
- - From there `execute run.bat` or run `./pswdgen` in terminal
+ - From there `execute run.bat` or `./pswdgen`
 
 # TODO:
 
