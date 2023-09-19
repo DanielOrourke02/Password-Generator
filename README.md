@@ -6,6 +6,10 @@
 
 # Installation and Usage
 
+> IMPORTANT!
+> You need G++ Installed to compile this tool. Or dowmload the pre compiled exe from the latest release
+
+
  - clone the repository `git clone https://github.com/DanielJones02/Password-Generator` or download the latest release 
 
  - `cd Password-Generator`
