@@ -4,6 +4,22 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/DanielJones02](https://github.com/DanielJones02)
 
+# Installation and Usage
+
+ - clone the repository `git clone https://github.com/DanielJones02/Password-Generator` or download the latest release 
+
+ - `cd Password-Generator`
+
+ - Now `execute compile.bat` or run `make` in terminal
+
+ - From there `execute run.bat` or run `./pswdgen` in terminal
+
+# TODO:
+
+ - [ ] GUI (MinGW)
+
+ - [ ] Save passwords in an encryped file
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
