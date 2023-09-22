@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include<cstdlib>
-#include<ctime>
+#include <cstdlib>
+#include <ctime>
 
 // chars for password generation
 const char alphanum[] = "0123456789!@#$%^&*abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
