@@ -38,7 +38,7 @@ void max_generate(int(repeat))
         exit(0);
     } else if (repeat == int(0))
     {
-        std::cout << "Generating 0 passwords isnt possible so I will assume you attempted to input 1.\n";
+        std::cout << "Generating 0 passwords isn't possible so I will assume you attempted to input 1.\n";
 
         repeat = 1;
     }
@@ -47,9 +47,14 @@ void max_generate(int(repeat))
 
 int main()
 {
-    int n;
-    int repeat;
-    int low = 6;
+    int n; // password length
+    int repeat; // variable for generating multiple passwords
+    int low = 6; // variable for how small the password can be (6)
+    int option;
+
+    system("cls"); // clear terminal
+    system("color 3"); // change colour
+
 
     std::cout << "[How many passwords would you like to generate]:> ";
     std::cin >> repeat; // input amount of passwords to generate
@@ -75,7 +80,7 @@ int main()
         std::cout << "\n";
     }
 
-    std::cout << "\nPasswords Generated.\n";
+    std::cout << "\n[Finished]:> \n" << std::endl;
 
     system("pause");
 
