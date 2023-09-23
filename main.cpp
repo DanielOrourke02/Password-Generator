@@ -3,9 +3,6 @@
 #include <cstdlib>
 #include <ctime>
 
-// chars for password generation
-const char alphanum[] = "0123456789!@#$%^&*abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
 // string length variable
 int string_length = sizeof(alphanum)-1;
 
@@ -45,6 +42,9 @@ void max_generate(int(repeat))
     
 }
 
+// chars for password generation
+const char alphanum[] = "0123456789!@#$%^&*abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 int main()
 {
     int n; // password length
@@ -53,7 +53,7 @@ int main()
     int option;
 
     system("cls"); // clear terminal
-    system("color 3"); // change colour
+    system("color 3"); // change colour to a blue/cyan ish
 
 
     std::cout << "[How many passwords would you like to generate]:> ";
@@ -73,10 +73,11 @@ int main()
     for(int i = 0; i < repeat; i++) // for loop to generate passwords
     {   
         for (int i = 0; i < n; i++)
-        {
-            std::cout << alphanum[rand() % string_length]; 
-            
+        {   
+            char pass = alphanum[rand() % string_length]; // variable for password generated
+            std::cout << pass;
         }
+
         std::cout << "\n";
     }
 
