@@ -20,7 +20,7 @@
 
 # TODO:
 
- - [ ] GUI (MinGW)
+ - [x] GUI (ImGui)
 
  - [ ] Save passwords in an encryped file
 
