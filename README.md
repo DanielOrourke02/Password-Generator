@@ -28,12 +28,12 @@
  - [x] GUI (ImGui)
 
  - [x] Clipboard Copy button
+    
+ - [x] Add Clipboard clear button (GUI)
 
  - [ ] Save passwords in an encryped file (Console & GUI)
        
  - [ ] Make the GUI neater and overall better
-
- - [ ] Add Clipboard clear button (GUI)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
