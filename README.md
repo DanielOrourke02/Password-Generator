@@ -22,14 +22,7 @@
  - [x] GUI (ImGui)
 
  - [ ] Save passwords in an encryped file
-
-# Updated Features
-
- - Commented code more (for users who are attempting to learn C++
-
- - Fixed Minor bugs
-
- - Added Colour
+ - [ ] 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
