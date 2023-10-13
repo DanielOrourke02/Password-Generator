@@ -40,8 +40,8 @@ void main_tabs()
     ImGui::SetNextWindowSizeConstraints(ImGui::GetMainViewport()->Size, ImGui::GetMainViewport()->Size);
 
 
-    static int dpl = 6;
-    ImGui::SliderInt("Password Length", &dpl, 6, 20); // slider for password length
+    static int dpl = 7;
+    ImGui::SliderInt("Password Length", &dpl, 7, 20); // slider for password length
     ImGui::Spacing();
 
     static std::string generatedPassword;
