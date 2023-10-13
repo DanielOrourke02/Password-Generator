@@ -22,7 +22,10 @@
  - [x] GUI (ImGui)
 
  - [ ] Save passwords in an encryped file
- - [ ] 
+       
+ - [ ] Make the GUI neater and overall better
+
+ - [ ] Add Clipboard Copy and clear button (GUI)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
