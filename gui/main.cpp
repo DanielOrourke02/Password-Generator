@@ -27,10 +27,9 @@ std::string generatePassword(int l)
 
 void main_tabs()
 {
-    srand(static_cast<unsigned>(time(nullptr))); // seed
+    srand(static_cast<unsigned>(time(nullptr))); // seed random generation
 
     ImGuiWindowFlags window_flags = 0;
-    // ImGui::Begin("Password Generation", NULL, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoNav);
     window_flags |= ImGuiWindowFlags_NoBackground;
     window_flags |= ImGuiWindowFlags_NoTitleBar;
     window_flags |= ImGuiWindowFlags_NoResize;
@@ -63,20 +62,8 @@ void main_tabs()
         ImGui::SetClipboardText(passwordCString);
     }
 
-    /*
-    Aint working for some shitty reason
-    if (ImGui::Button("Clear Clipboard"))
-    {
-        try
-        {
-            EmptyClipboard();
-        }
-        catch (const std::exception&)
-        {
-            ImGui::Text("Failed to clear clipboard data!");
-        }
-    }
-    */
+    static char buf[32] = "";
+    ImGui::InputText("UTF-8 input", buf, IM_ARRAYSIZE(buf));
 
     ImGui::EndChild();
     ImGui::End();
