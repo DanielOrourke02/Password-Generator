@@ -7,8 +7,7 @@
 # Installation and Usage
 
 > [!IMPORTANT]
-> You need G++ Installed to compile this tool. Or dowmload the pre compiled exe from the latest release
-
+> I am very beginner when making GUIs. Im also fairly new to C++ (as of this momment 13/10/23)
 
  - clone the repository `git clone https://github.com/DanielJones02/Password-Generator` or download the compiled exe (GUI or Terminal)
 
