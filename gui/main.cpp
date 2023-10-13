@@ -57,13 +57,22 @@ void main_tabs()
     ImGui::Text("%s", passwordCString);
     ImGui::Spacing();
     
-    if (ImGui::Button("Copy to clipboard"))
+    if (ImGui::Button("Copy to Clipboard"))
     {
         ImGui::SetClipboardText(passwordCString);
     }
 
+    ImGui::SameLine();
+
+    if (ImGui::Button("Clear Clipboard Data"))
+    { 
+        ImGui::SetClipboardText("");
+    }
+
+    ImGui::Spacing();
+
     static char buf[32] = "";
-    ImGui::InputText("UTF-8 input", buf, IM_ARRAYSIZE(buf));
+    ImGui::InputText("Text Input", buf, IM_ARRAYSIZE(buf));
 
     ImGui::EndChild();
     ImGui::End();
