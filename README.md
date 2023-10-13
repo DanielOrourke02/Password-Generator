@@ -19,7 +19,7 @@
 
 # Preview
 
-![plot](imgages/gui.png)
+[![plot](imgages/gui.png)]
 
 [![Demo]()](https://youtu.be/9QbCJY5QnYE?si=R8-0699ytJEr_eye)
 
