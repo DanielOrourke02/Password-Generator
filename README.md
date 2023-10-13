@@ -10,9 +10,13 @@
 > You need G++ Installed to compile this tool. Or dowmload the pre compiled exe from the latest release
 
 
- - clone the repository `git clone https://github.com/DanielJones02/Password-Generator` or download the compiled exe
+ - clone the repository `git clone https://github.com/DanielJones02/Password-Generator` or download the compiled exe (GUI or Terminal)
 
- - Build the project in visual studio (release, x86)
+ - Now run compile.bat to compile the console version
+
+ - OR
+
+ - Open /ui and open the project in visual studio then build the exe (Release, x86)
 
 # TODO:
 
