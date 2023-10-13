@@ -17,7 +17,7 @@
 
  - Open /ui and open the project in visual studio then build the exe (Release, x86)
 
-# Preview
+# Preview (outdated images)
 
 ![plot](images/gui.png)
 
