@@ -19,7 +19,7 @@
 
 # Preview (outdated images)
 
-![plot](images/gui.png)
+![plot](images/preview.png)
 
 [![Demo]()](https://youtu.be/9QbCJY5QnYE?si=R8-0699ytJEr_eye)
 
