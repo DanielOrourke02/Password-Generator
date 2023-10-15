@@ -36,7 +36,7 @@ void main_tabs()
     window_flags |= ImGuiWindowFlags_NoMove;
     window_flags |= ImGuiWindowFlags_NoNav;
 
-    ImGui::Begin("Password Generator", NULL, window_flags);
+    ImGui::Begin("", NULL, window_flags);
     ImGui::SetNextWindowSizeConstraints(ImGui::GetMainViewport()->Size, ImGui::GetMainViewport()->Size);
 
 
