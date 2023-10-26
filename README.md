@@ -23,6 +23,8 @@
 
 [![Demo]()](https://youtu.be/6BuRXyj4FSo)[images/ezgif.com-video-to-gif.gif]
 
+[![Demo](images/ezgif.com-video-to-gif.gif)](https://youtu.be/6BuRXyj4FSo)
+
 # TODO:
 
  - [x] GUI (ImGui)
