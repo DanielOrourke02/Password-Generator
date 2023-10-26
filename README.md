@@ -21,7 +21,7 @@
 
 ![plot](images/preview.png)
 
-[![Demo]()](https://youtu.be/6BuRXyj4FSo)
+[![Demo]()](https://youtu.be/6BuRXyj4FSo)[images/ezgif.com-video-to-gif.gif]
 
 # TODO:
 
