@@ -14,31 +14,20 @@ void pswd_max_length(int(n), int(low))
     if (n < low)
     {
         std::cout << "Number cannot be smaller than 6 letters!\n\n" << std::endl;
-
-        system("pause");
         exit(0);
     } else if (n > 100)
     {
         std::cout << "You cannot generate a password longer than 100 letters!\n\n" << std::endl;
-
-        system("pause");
         exit(0);
     }   
 }
 
-// max and minimum amount of password to generate
-void max_generate(int(repeat))
+// check if entry was valid
+void valid_entry(int(repeat))
 {
-    if (repeat > 50)
+    if (repeat <= int(0))
     {
-        std::cout << "You cannot generate more than 50 passwords!\n\n" << std::endl;
-
-        system("pause");
-        exit(0);
-    } else if (repeat == int(0))
-    {
-        std::cout << "Generating 0 passwords isn't possible so I will assume you attempted to input 1.\n";
-
+        std::cout << "You cannot generate 0 or negative numbers. Generating 1 password instead.\n";
         repeat = 1;
     }
     
@@ -51,14 +40,10 @@ int main()
     int low = 6; // variable for how small the password can be (6)
     int option;
 
-    system("cls"); // clear terminal
-    system("color 3"); // change colour to a blue/cyan ish
-
-
-    std::cout << "[How many passwords would you like to generate]:> ";
+    std::cout << "\n[How many passwords would you like to generate]:> ";
     std::cin >> repeat; // input amount of passwords to generate
 
-    max_generate(repeat); // check how for the max and lowest amount they can generate passwords
+    valid_entry(repeat); // check if repeat was above 0
 
     std::cout << "[Enter the length of password]:> ";
     std::cin >> n; // input password length
@@ -79,9 +64,7 @@ int main()
         std::cout << "\n";
     }
 
-    std::cout << "\n[Finished]:> \n" << std::endl;
-
-    system("pause");
+    std::cout << "" << std::endl;
 
     return 0;
 }
